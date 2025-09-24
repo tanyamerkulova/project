@@ -37,20 +37,6 @@
   - Все тесты одновременно (`pytest`)  
 
 ---
-
-## Структура проекта
-
-  tests/
-    - test_ui.py          # UI-тесты
-    - test_api.py         # API-тесты
-  pages/
-    - search_page.py      # Page Object для UI
-    - api_page.py         # Page Object для API
-  - requirements.txt      # Список зависимостей
-  - pytest.ini            # Маркировка тестов
-  - README.md             # Описание проекта
-
-
 ## Установка зависимостей
 pip install -r requirements.txt
 

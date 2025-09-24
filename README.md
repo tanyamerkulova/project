@@ -39,15 +39,13 @@
 ---
 
 ## Структура проекта
-- project/
-  - tests/
+
+  tests/
     - test_ui.py          # UI-тесты
     - test_api.py         # API-тесты
-  - pages/
+  pages/
     - search_page.py      # Page Object для UI
     - api_page.py         # Page Object для API
-  - config/
-    - test_data.py        # Конфигурации (URL, токены)
   - requirements.txt      # Список зависимостей
   - pytest.ini            # Маркировка тестов
   - README.md             # Описание проекта
